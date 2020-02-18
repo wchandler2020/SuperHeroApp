@@ -80,7 +80,7 @@ namespace SuperHero.Controllers
                 heroDetails.PrimaryAbilty = hero.PrimaryAbilty;
                 heroDetails.PrimaryAbilty = hero.SecondaryAbilty;
                 heroDetails.AlterEgo = hero.AlterEgo;
-                heroDetails.CatchPhrase = hero.AlterEgo;
+                heroDetails.CatchPhrase = hero.CatchPhrase;
                 _context.SaveChanges();
 
                 return RedirectToAction(nameof(Index));
