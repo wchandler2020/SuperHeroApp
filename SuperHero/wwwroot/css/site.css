@@ -51,6 +51,10 @@ button.accept-policy {
   line-height: inherit;
 }
 
+.container{
+   
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -59,8 +63,11 @@ html {
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background: url(../images/image1.jpg);
+    width: 100%;
+    height: 100%;
 }
 .footer {
   position: absolute;
